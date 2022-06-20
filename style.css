@@ -361,6 +361,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/*nouveaux code*/
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -443,6 +444,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+
 }
 
 .btn {
@@ -660,6 +662,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+
 }
 
 .hero-bloc-text-sub {
@@ -737,6 +740,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 0.6em;
 }
 
 .portfolio-thumb {
@@ -775,7 +779,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
+    font-size: 1.5em;
+    
 }
 
 .btn-atomic-tangerine {
@@ -1039,4 +1045,9 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.keywords {
+    color:white;
+    padding:0.5rem;
+    margin:0.5rem;
 }
