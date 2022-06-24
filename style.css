@@ -319,6 +319,7 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    
 }
 
 .nav > li a:hover,
@@ -351,7 +352,14 @@ a:hover {
     z-index: 2;
 }
 /*nouveaux code*/
-
+.navp2 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.navp2 li {
+    padding: 1rem;
+}
 @media (min-width: 768px) {
 .navbar-header{
     display:flex;
@@ -365,6 +373,7 @@ a:hover {
     .nav-invert .site-navigation {
         left: 0;
         right: 0;
+
     }
     .nav-center {
         text-align: center;
@@ -666,8 +675,11 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    
 }
-
+.tight-width-whitespace h2{
+    z-index:1;
+}
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -720,7 +732,7 @@ h4 {
 }
 
 .white {
-    color: #000000!important;
+    color: #ffffff!important;
     font-size: 1em;
 }
 
@@ -731,6 +743,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+
 }
 
 .avatar {
@@ -825,18 +838,15 @@ h4 {
 .list-link ul{
     display:flex;
     flex-direction:row;
+    justify-content: center;
 }
 .list-ul  {
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
     padding: 1rem;
     width: 100%;
     list-style-type: none;
+    
 }
-.list-ul li{
-    color:white;
-}
+
 .list-ul a{
     padding: 1.5rem;
     font-size: 1.2em;
@@ -852,9 +862,16 @@ h4 {
     text-align:center;
     font-size: 1.4em;
 }
+.img-size{
+    height: 270px;
+    width: 270px;
+    margin: auto;
 
+    
+}
 @media (max-width: 1024px) {
     .bloc {
+
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -865,6 +882,14 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .list-link ul{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .list-link h3{
+        display: block;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -874,6 +899,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -951,6 +977,7 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        
     }
     .nav > li {
         margin-top: 0;
@@ -989,6 +1016,7 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+       
     }
     .navbar-brand img {
         max-height: 40px;
