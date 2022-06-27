@@ -910,9 +910,7 @@ h4 {
     font-weight: bold;
     padding: 0.5em;
 }
-.fa {
-    color: white;
-}
+
 #bloc-1-hero , #bloc-2-services , #bloc-3-what-i-do , #bloc-4-portfolio , #bloc-5-cta, #bloc-8{
     display:flex;
     flex-direction: column;
