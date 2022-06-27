@@ -356,9 +356,11 @@ a:hover {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    padding-left: 0;
 }
 .navp2 li {
     padding: 1rem;
+    list-style-type: none;
 }
 @media (min-width: 768px) {
 .navbar-header{
@@ -507,13 +509,15 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
+    color: black;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    color: black;
 }
 
 .showScrollTop {
@@ -783,10 +787,25 @@ h4 {
     background: #F3976C;
     color: #FFFFFF!important;
 }
+#form_1 {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.container{
+    width: 100%;
+    margin:0;
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+}
+#bloc-7{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
 }
 
 .ltc-white {
@@ -857,6 +876,8 @@ h4 {
 }
 .bloc-textp2{
     width: 100%;
+    padding:0;
+    margin: auto;
 }
 .center-text{
     text-align:center;
@@ -865,9 +886,39 @@ h4 {
 .img-size{
     height: 270px;
     width: 270px;
-    margin: auto;
-
+    margin: auto;   
+}
+.adress p{
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
     
+}
+.form-group label{
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.fa {
+    color: white;
+}
+#bloc-1-hero , #bloc-2-services , #bloc-3-what-i-do , #bloc-4-portfolio , #bloc-5-cta, #bloc-8{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -981,10 +1032,7 @@ h4 {
     }
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
+        text-align: center;
         width: 100%;
     }
     .nav > li:hover {
